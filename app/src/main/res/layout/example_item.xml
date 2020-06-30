@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="4dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+        <TextView
+            android:id="@+id/studid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="ID"
+            android:paddingRight="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/outdatee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/studid"
+            android:text="Out Date"
+            android:paddingRight="5dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/studid" />
+        <TextView
+            android:id="@+id/outtimee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/outdatee"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/outdatee"
+            android:text="Line 2"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:paddingRight="8dp"
+            android:layout_toRightOf="@+id/outdatee" />
+        <TextView
+            android:id="@+id/recomname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:paddingRight="5dp"
+            android:layout_toEndOf="@+id/outtimee"
+            android:text="Recom.No."
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/outtimee" />
+        <TextView
+            android:id="@+id/recomno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:paddingRight="5dp"
+            android:layout_toEndOf="@+id/recomname"
+            android:text="Recom.No."
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/recomname" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

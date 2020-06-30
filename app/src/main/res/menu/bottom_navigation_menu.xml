@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/form"
+        android:id="@+id/bottomNavigationFormMenuId"
+        android:icon="@drawable/form"/>
+    <item android:title="@string/inbox"
+        android:id="@+id/bottomNavigationInboxMenuId"
+        android:icon="@drawable/inbox"/>
+    <!--<item android:title="@string/timer"
+        android:id="@+id/bottomNavigationTimerMenuId"
+        android:icon="@drawable/timer_vector_icon"/>
+    <item android:title="@string/stopwatch"
+        android:id="@+id/bottomNavigationStopWatchMenuId"
+        android:icon="@drawable/stopwatch_vector_icon"/> -->
+</menu>

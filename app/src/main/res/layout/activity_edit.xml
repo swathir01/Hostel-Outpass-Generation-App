@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+
+    <TextView
+        android:id="@+id/sid"
+        android:layout_width="102dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/textview"
+        android:textColorHighlight="#151515"
+        android:textColorLink="#121111"
+        android:textSize="18sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toTopOf="@+id/sname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idtext"
+        app:layout_constraintTop_toBottomOf="@+id/details" />
+
+    <TextView
+        android:id="@+id/sname"
+        android:layout_width="102dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/textview"
+        android:textColorHighlight="#151515"
+        android:textColorLink="#121111"
+        android:textSize="18sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toTopOf="@+id/semail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nametext"
+        app:layout_constraintTop_toBottomOf="@+id/sid" /><![CDATA[
+
+
+
+
+
+
+
+    "
+        android:text="@string/textview"
+        android:textColorHighlight="#151515"
+        android:textColorLink="#121111"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/semail"
+        android:layout_width="172dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/textview"
+        android:textColorHighlight="#151515"
+        android:textColorLink="#121111"
+        android:textSize="14sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toTopOf="@+id/sdept"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mailtext"
+        app:layout_constraintTop_toBottomOf="@+id/sname" />
+
+    <TextView
+        android:id="@+id/sphn"
+        android:layout_width="102dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/textview"
+        android:textColorHighlight="#151515"
+        android:textColorLink="#121111"
+        android:textSize="18sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toTopOf="@+id/sbm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/spno" />
+
+    <TextView
+        android:id="@+id/spno"
+        android:layout_width="102dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/textview"
+        android:textColorHighlight="#151515"
+        android:textColorLink="#121111"
+        android:textSize="18sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toTopOf="@+id/sphn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/sdept" />
+
+    <TextView
+        android:id="@+id/sdept"
+        android:layout_width="102dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="5dp"
+        android:text="text view"
+        android:textSize="18sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toTopOf="@+id/spno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/depttext"
+        app:layout_constraintTop_toBottomOf="@+id/semail" />
+
+    <TextView
+        android:id="@+id/sbm"
+        android:layout_width="102dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/textview"
+        android:textColorHighlight="#151515"
+        android:textColorLink="#121111"
+        android:textSize="18sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toTopOf="@+id/sform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/sphn" />
+
+    <TextView
+        android:id="@+id/sform"
+        android:layout_width="102dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="390dp"
+        android:text="@string/textview"
+        android:textColorHighlight="#151515"
+        android:textColorLink="#121111"
+        android:textSize="18sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/sbm" />
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="155dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginRight="128dp"
+        android:text="DETAILS"
+        android:textColor="#070707"
+        android:textColorHighlight="#0E0E0E"
+        android:textColorLink="#0C0B0B"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/sid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49" />
+
+    <TextView
+        android:id="@+id/idtext"
+        android:layout_width="102dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Student ID"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/nametext"
+        app:layout_constraintEnd_toStartOf="@+id/sid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details" />
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="102dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/mailtext"
+        app:layout_constraintEnd_toStartOf="@+id/sname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idtext" />
+
+    <TextView
+        android:id="@+id/mailtext"
+        android:layout_width="102dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/email_id"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/depttext"
+        app:layout_constraintEnd_toStartOf="@+id/semail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nametext" />
+
+    <TextView
+        android:id="@+id/depttext"
+        android:layout_width="102dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Department"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toStartOf="@+id/sdept"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mailtext" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="102dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Parent No."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toStartOf="@+id/spno"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/depttext" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="102dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Student No."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toStartOf="@+id/sphn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="102dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Dishonors"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toStartOf="@+id/sbm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="102dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="390dp"
+        android:text="Forms"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/editer"
+        android:layout_width="155dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginRight="128dp"
+        android:text="@string/edit_here"
+        android:textColor="#0B0A0A"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sform" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="411dp"
+        android:layout_marginRight="411dp"
+        android:layout_marginBottom="350dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_end="351dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/eid"
+        android:layout_width="192dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="15dp"
+        android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+        android:ems="10"
+        android:hint="@string/email_id"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/spn"
+        app:layout_constraintEnd_toStartOf="@+id/sno"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editer" />
+
+    <EditText
+        android:id="@+id/sno"
+        android:layout_width="140dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="Student No."
+        android:drawableLeft="@drawable/ic_contact_phone_black_24dp"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/fms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/eid"
+        app:layout_constraintTop_toBottomOf="@+id/editer" />
+
+    <EditText
+        android:id="@+id/spn"
+        android:layout_width="140dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:hint="Parent No."
+        android:drawableLeft="@drawable/ic_contact_phone_black_24dp"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/dis"
+        app:layout_constraintEnd_toStartOf="@+id/fms"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eid" />
+
+    <EditText
+        android:id="@+id/fms"
+        android:layout_width="140dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:drawableLeft="@drawable/forms"
+        android:hint="Forms"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/dis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/spn"
+        app:layout_constraintTop_toBottomOf="@+id/sno" />
+
+    <EditText
+        android:id="@+id/dis"
+        android:layout_width="137dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginLeft="137dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginRight="137dp"
+        android:layout_marginBottom="27dp"
+        android:ems="10"
+        android:drawableLeft="@drawable/dishonors"
+        android:hint="Dishonors"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/editbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spn" />
+
+    <Button
+        android:id="@+id/editbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginLeft="159dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginRight="164dp"
+        android:layout_marginBottom="56dp"
+        android:background="#22DCC0"
+        android:text="SUBMIT"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorPrimaryLight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dis" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Hostel Outpass Generation</string>
+    <string name="manager_uh">MANAGER UH?</string>
+    <string name="sign_up">Sign up!</string>
+    <string name="new_employee">New Hosteller?</string>
+    <string name="avatar">avatar</string>
+    <string name="login">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="name">Username</string>
+    <string name="home_fragment">Home fragment</string>
+    <string name="registerFragment">Register</string>
+    <string name="username">Username</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="welcome_user">Welcome User</string>
+    <string name="textview">text View</string>
+    <string name="email_id">Email ID</string>
+    <string name="edit_here">EDIT HERE!</string>
+    <string name="Inbox">inbox</string>
+    <string name="Form">form</string>
+    <string name="home">Home</string>
+    <string name="inbox">Inbox</string>
+    <string name="form">Form</string>
+    <string-array name="Department">
+        <item>IT</item>
+        <item>ECE</item>
+        <item>CSE</item>
+        <item>MECH</item>
+        <item>EEE</item>
+    </string-array>
+</resources>

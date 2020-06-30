@@ -1,0 +1,2 @@
+rootProject.name='Hostel Outpass Generation'
+include ':app'

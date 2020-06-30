@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="245dp"
+        android:layout_height="46dp"
+        android:text="RECOMMENDATION!!"
+        android:textColor="#0B0A0A"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/rename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="105dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/rephn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="120dp"
+        android:ems="10"
+        android:hint="Mobile No."
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginBottom="120dp"
+        android:background="@color/colorPrimaryLight"
+        android:text="SUBMIT"
+        android:textColor="#101010"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#5BE861" />
+</RelativeLayout>
